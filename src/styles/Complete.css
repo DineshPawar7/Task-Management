@@ -1,0 +1,41 @@
+.task-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .task-form input, .task-form textarea, .task-form select {
+    margin-bottom: 10px;
+  }
+  
+  .dots:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-content button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .dropdown-content button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .complete-container {
+    width: 300px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
